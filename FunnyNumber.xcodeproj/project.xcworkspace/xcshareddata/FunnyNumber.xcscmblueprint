@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "038CD2F594A8791B91D6F53065162D6FD2D77CDF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "038CD2F594A8791B91D6F53065162D6FD2D77CDF" : 9223372036854775807,
+    "F2D7E7BC18D447032F91575585E1817319FCD014" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F76F0106-5BBA-4C91-A710-324E1270C55F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "038CD2F594A8791B91D6F53065162D6FD2D77CDF" : "FunnyNumber\/",
+    "F2D7E7BC18D447032F91575585E1817319FCD014" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FunnyNumber",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FunnyNumber.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pok1709\/FunnyNumber.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "038CD2F594A8791B91D6F53065162D6FD2D77CDF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pok1709\/BasicSwift_9Sep17.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F2D7E7BC18D447032F91575585E1817319FCD014"
+    }
+  ]
+}

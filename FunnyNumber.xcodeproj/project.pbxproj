@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2844AF3F1F64FABB00B78FA2 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2844AF3E1F64FABB00B78FA2 /* MyClass.swift */; };
+		2844AF411F6509FD00B78FA2 /* if_General_Office_44_2530808.png in Resources */ = {isa = PBXBuildFile; fileRef = 2844AF401F6509FD00B78FA2 /* if_General_Office_44_2530808.png */; };
 		286C86C11F64DAFC00928071 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286C86C01F64DAFC00928071 /* AppDelegate.swift */; };
 		286C86C31F64DAFC00928071 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286C86C21F64DAFC00928071 /* ViewController.swift */; };
 		286C86C61F64DAFC00928071 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286C86C41F64DAFC00928071 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		2844AF3E1F64FABB00B78FA2 /* MyClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyClass.swift; sourceTree = "<group>"; };
+		2844AF401F6509FD00B78FA2 /* if_General_Office_44_2530808.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = if_General_Office_44_2530808.png; sourceTree = "<group>"; };
 		286C86BD1F64DAFC00928071 /* FunnyNumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunnyNumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		286C86C01F64DAFC00928071 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		286C86C21F64DAFC00928071 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 		286C86BF1F64DAFC00928071 /* FunnyNumber */ = {
 			isa = PBXGroup;
 			children = (
+				2844AF401F6509FD00B78FA2 /* if_General_Office_44_2530808.png */,
 				286C86D81F64E2A300928071 /* austris-augusts-140145.jpg */,
 				286C86D21F64E0DD00928071 /* ic_save_2x.png */,
 				286C86D31F64E0DD00928071 /* ic_save_3x.png */,
@@ -142,6 +145,7 @@
 				286C86D61F64E0DD00928071 /* ic_save_3x.png in Resources */,
 				286C86D51F64E0DD00928071 /* ic_save_2x.png in Resources */,
 				286C86CB1F64DAFC00928071 /* LaunchScreen.storyboard in Resources */,
+				2844AF411F6509FD00B78FA2 /* if_General_Office_44_2530808.png in Resources */,
 				286C86C81F64DAFC00928071 /* Assets.xcassets in Resources */,
 				286C86D71F64E0DD00928071 /* ic_save.png in Resources */,
 				286C86C61F64DAFC00928071 /* Main.storyboard in Resources */,

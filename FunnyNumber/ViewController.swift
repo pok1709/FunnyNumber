@@ -30,12 +30,20 @@ class ViewController: UIViewController {
         numberLabel.text = String(numberAInt)
     }
     
+    @IBAction func resetButton(_ sender: Any) {
+        numberAInt = resetNum(intNumber: 1)
+        numberLabel.text = String(numberAInt)
+    }
+    
     //Function Add Number
     func addNumber(intNumber: Int) -> Int {
         let result = intNumber + 1
         return result
     }
     
+    func resetNum(intNumber: Int) -> Int {
+        return intNumber
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
