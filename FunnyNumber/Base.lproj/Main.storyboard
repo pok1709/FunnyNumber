@@ -1,14 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FunnyNumber" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +21,76 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000000000001" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="austris-augusts-140145.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="5yI-rb-BMS">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OwA-V0-ZRQ">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <items>
+                                    <navigationItem title="Funny Number" id="7do-Jk-lTH">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="GFw-fb-pBA">
+                                            <connections>
+                                                <action selector="decButton:" destination="BYZ-38-t0r" id="mrW-6d-pkM"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="fastForward" id="obI-da-3yM">
+                                            <connections>
+                                                <action selector="incButton:" destination="BYZ-38-t0r" id="GJI-Vx-2eu"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qRc-vy-HXV">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <barButtonItem systemItem="trash" id="KPj-Sf-q2e"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Czr-Kb-t6v"/>
+                                    <barButtonItem systemItem="search" id="rkF-8r-nzB"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Rdc-kR-0SU"/>
+                                    <barButtonItem title="Item" image="ic_save.png" id="hEf-CW-3Hh">
+                                        <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n7E-pW-rV5">
+                                <rect key="frame" x="16" y="244" width="343" height="179.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="150"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="qRc-vy-HXV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="1zW-RL-20t"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="qRc-vy-HXV" secondAttribute="bottom" id="97J-TO-Zpk"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="n7E-pW-rV5" secondAttribute="trailing" id="AMc-qc-VlR"/>
+                            <constraint firstItem="n7E-pW-rV5" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="EXL-1b-6hl"/>
+                            <constraint firstAttribute="trailing" secondItem="5yI-rb-BMS" secondAttribute="trailing" id="Ohp-lE-JZl"/>
+                            <constraint firstItem="n7E-pW-rV5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="YNg-56-D5N"/>
+                            <constraint firstItem="OwA-V0-ZRQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="cmd-U5-Mjf"/>
+                            <constraint firstItem="OwA-V0-ZRQ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="h31-nY-wmU"/>
+                            <constraint firstItem="n7E-pW-rV5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hGX-Vq-0wF"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="5yI-rb-BMS" secondAttribute="bottom" id="kjL-U7-HFK"/>
+                            <constraint firstItem="5yI-rb-BMS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="lHm-eB-LOU"/>
+                            <constraint firstAttribute="trailing" secondItem="qRc-vy-HXV" secondAttribute="trailing" id="sWJ-Sy-b0r"/>
+                            <constraint firstAttribute="trailing" secondItem="OwA-V0-ZRQ" secondAttribute="trailing" id="t4U-s6-ame"/>
+                            <constraint firstItem="5yI-rb-BMS" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="64" id="vSn-Zf-XRo"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="numberLabel" destination="n7E-pW-rV5" id="KL4-1c-flL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-79.200000000000003" y="137.18140929535232"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="austris-augusts-140145.jpg" width="4563" height="2997"/>
+        <image name="ic_save.png" width="24" height="24"/>
+    </resources>
 </document>

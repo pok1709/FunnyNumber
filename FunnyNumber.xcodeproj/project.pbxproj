@@ -12,6 +12,10 @@
 		286C86C61F64DAFC00928071 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286C86C41F64DAFC00928071 /* Main.storyboard */; };
 		286C86C81F64DAFC00928071 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 286C86C71F64DAFC00928071 /* Assets.xcassets */; };
 		286C86CB1F64DAFC00928071 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286C86C91F64DAFC00928071 /* LaunchScreen.storyboard */; };
+		286C86D51F64E0DD00928071 /* ic_save_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 286C86D21F64E0DD00928071 /* ic_save_2x.png */; };
+		286C86D61F64E0DD00928071 /* ic_save_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 286C86D31F64E0DD00928071 /* ic_save_3x.png */; };
+		286C86D71F64E0DD00928071 /* ic_save.png in Resources */ = {isa = PBXBuildFile; fileRef = 286C86D41F64E0DD00928071 /* ic_save.png */; };
+		286C86D91F64E2A300928071 /* austris-augusts-140145.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 286C86D81F64E2A300928071 /* austris-augusts-140145.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		286C86C71F64DAFC00928071 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		286C86CA1F64DAFC00928071 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		286C86CC1F64DAFC00928071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		286C86D21F64E0DD00928071 /* ic_save_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_save_2x.png; sourceTree = "<group>"; };
+		286C86D31F64E0DD00928071 /* ic_save_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_save_3x.png; sourceTree = "<group>"; };
+		286C86D41F64E0DD00928071 /* ic_save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_save.png; sourceTree = "<group>"; };
+		286C86D81F64E2A300928071 /* austris-augusts-140145.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "austris-augusts-140145.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,10 @@
 		286C86BF1F64DAFC00928071 /* FunnyNumber */ = {
 			isa = PBXGroup;
 			children = (
+				286C86D81F64E2A300928071 /* austris-augusts-140145.jpg */,
+				286C86D21F64E0DD00928071 /* ic_save_2x.png */,
+				286C86D31F64E0DD00928071 /* ic_save_3x.png */,
+				286C86D41F64E0DD00928071 /* ic_save.png */,
 				286C86C01F64DAFC00928071 /* AppDelegate.swift */,
 				286C86C21F64DAFC00928071 /* ViewController.swift */,
 				286C86C41F64DAFC00928071 /* Main.storyboard */,
@@ -123,8 +135,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				286C86D91F64E2A300928071 /* austris-augusts-140145.jpg in Resources */,
+				286C86D61F64E0DD00928071 /* ic_save_3x.png in Resources */,
+				286C86D51F64E0DD00928071 /* ic_save_2x.png in Resources */,
 				286C86CB1F64DAFC00928071 /* LaunchScreen.storyboard in Resources */,
 				286C86C81F64DAFC00928071 /* Assets.xcassets in Resources */,
+				286C86D71F64E0DD00928071 /* ic_save.png in Resources */,
 				286C86C61F64DAFC00928071 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
