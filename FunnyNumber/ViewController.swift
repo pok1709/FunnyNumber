@@ -10,20 +10,31 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    //Implicit
+    var numberAInt: Int = 1
+    
     
     @IBOutlet weak var numberLabel: UILabel!
     
     
     @IBAction func decButton(_ sender: Any) {
         print("Click DEC")
+        let myClass = MyClass()
+        numberAInt = myClass.decNumber(intNumber: numberAInt)
+        numberLabel.text = String(numberAInt)
     }
     
     @IBAction func incButton(_ sender: Any) {
         print("Click INC")
+        numberAInt = addNumber(intNumber: numberAInt)
+        numberLabel.text = String(numberAInt)
     }
     
-    
-    
+    //Function Add Number
+    func addNumber(intNumber: Int) -> Int {
+        let result = intNumber + 1
+        return result
+    }
     
     
     override func viewDidLoad() {
